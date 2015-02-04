@@ -1,0 +1,15 @@
+﻿{
+    "manifest_version": 2,
+    "name": "真我的快递单",
+    "version": "1.0",
+    "description": "快递一百本地快递单",
+    "content_scripts": [
+        {
+            "matches": ["*://www.kuaidi100.com/"],
+            "js": ["js/content.js"]
+        }
+    ],
+    "icons": {
+        "48": "images/icon48.png"
+    }
+}
