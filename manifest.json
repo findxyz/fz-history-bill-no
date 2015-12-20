@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "matches": ["*://www.kuaidi100.com/"],
-            "js": ["js/content.js"]
+            "js": ["js/newHistoryBillNo.js"]
         }
     ],
     "icons": {
